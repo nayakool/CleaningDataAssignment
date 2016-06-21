@@ -4,7 +4,7 @@ trainData<-read.table("X_train.txt",sep="",header = FALSE)
 testData<-read.table("X_test.txt",sep="",header = FALSE)
 
 #Concatenate training and testing data set to create complete data set
-completedData<-rbind(testData,trainData)
+completeData<-rbind(testData,trainData)
 
 #Read the feature names into a vector and clean the names to just retain 
 #feature vector variable names
