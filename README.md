@@ -1,5 +1,14 @@
-# CleaningDataAssignment
-##Below are the steps followed come up with the tidy data from raw sensor data
+
+Getting and Cleaning Data Course Project CodeBook
+=================================================
+This file describes the variables, the data, and any transformations or work that I have performed to clean up the data.  
+* The site where the data was obtained:  
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones      
+* The data for the project:  
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+## CleaningDataAssignment
+###Below are the steps followed come up with the tidy data from raw sensor data
 1. Read the training and testing data sets "X_train.txt and X_test.txt" individually
 2. Concatenate training and testing data set to create complete data set named completeData
 3. Read the feature names features.txt into a vector featureNames and clean the names to just retain feature vector variable names
