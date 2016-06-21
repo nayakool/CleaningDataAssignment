@@ -6,7 +6,7 @@ testData<-read.table("X_test.txt",sep="",header = FALSE)
 #Concatenate training and testing data set to create complete data set
 completeData<-rbind(testData,trainData)
 
-#Read the feature names into a vector and clean the names to just retain 
+#Read the feature names into a vector featureNames and clean the names to just retain 
 #feature vector variable names
 featureNames<-readLines("features.txt")
 featureNames<-featureNames<-sub("^[0-9]*",'\\1',featureNames)
